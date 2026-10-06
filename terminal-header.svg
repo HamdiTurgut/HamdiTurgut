@@ -73,38 +73,39 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="2.35s" fill="freeze"/>
 
-    <!-- C++ badge: icon panel left, label right -->
+    <!-- C++ badge -->
     <rect x="253" y="219" width="88" height="34" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <rect x="253" y="219" width="36" height="34" rx="3" fill="#00599c"/>
     <rect x="271" y="219" width="18" height="34" fill="#00599c"/>
-    <!-- simple C++ text icon, white, monospace bold -->
     <text x="271" y="241" font-family="Georgia, serif" font-size="13px" font-weight="bold" fill="white" text-anchor="middle">C++</text>
     <text x="319" y="241" class="bl" text-anchor="middle">C++</text>
 
-    <!-- Linux badge: icon panel left, label right -->
-    <rect x="353" y="219" width="92" height="34" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <rect x="353" y="219" width="36" height="34" rx="3" fill="#f5c518"/>
-    <rect x="371" y="219" width="18" height="34" fill="#f5c518"/>
+    <!-- Cyber Security badge -->
+    <rect x="353" y="219" width="122" height="34" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="353" y="219" width="36" height="34" rx="3" fill="#1a1f6e"/>
+    <rect x="371" y="219" width="18" height="34" fill="#1a1f6e"/>
 
-    <!-- Tux: minimal, iconic, centered at cx=371 cy=236 in 36x34 box -->
-    <!-- body: black rounded rect -->
-    <rect x="363" y="228" width="16" height="18" rx="8" fill="#222"/>
-    <!-- belly: white oval -->
-    <ellipse cx="371" cy="238" rx="5" ry="6" fill="#eee"/>
-    <!-- head: black circle -->
-    <circle cx="371" cy="224" r="7" fill="#222"/>
-    <!-- eyes: white dots -->
-    <circle cx="368" cy="222" r="1.5" fill="white"/>
-    <circle cx="374" cy="222" r="1.5" fill="white"/>
-    <!-- pupils -->
-    <circle cx="368.5" cy="222" r="0.7" fill="#222"/>
-    <circle cx="374.5" cy="222" r="0.7" fill="#222"/>
-    <!-- beak: small orange triangle -->
-    <polygon points="369,225 373,225 371,228" fill="#e8a000"/>
-    <!-- feet: two small orange rects -->
-    <rect x="365" y="245" width="5" height="3" rx="1" fill="#e8a000"/>
-    <rect x="372" y="245" width="5" height="3" rx="1" fill="#e8a000"/>
+    <!-- Kali-style dragon head icon, centered in 36px panel at cx=371, cy=236 -->
+    <!-- dragon body/neck -->
+    <path d="M366 248 Q364 242 366 236 Q368 230 371 228 Q374 230 376 236 Q378 242 376 248 Z" fill="#2d3aaa"/>
+    <!-- dragon head -->
+    <path d="M367 228 Q365 222 368 219 Q371 217 374 219 Q377 222 375 228 Z" fill="#3d4fcc"/>
+    <!-- left horn -->
+    <path d="M368 220 L365 213 L369 219 Z" fill="#5566ee"/>
+    <!-- right horn -->
+    <path d="M374 220 L377 213 L373 219 Z" fill="#5566ee"/>
+    <!-- left eye glow -->
+    <circle cx="369" cy="223" r="1.5" fill="#00cfff"/>
+    <!-- right eye glow -->
+    <circle cx="373" cy="223" r="1.5" fill="#00cfff"/>
+    <!-- wing left -->
+    <path d="M366 236 Q358 230 357 224 Q362 228 366 232 Z" fill="#2d3aaa"/>
+    <!-- wing right -->
+    <path d="M376 236 Q384 230 385 224 Q380 228 376 232 Z" fill="#2d3aaa"/>
+    <!-- tail -->
+    <path d="M369 248 Q366 252 364 250 Q367 247 369 244 Z" fill="#2d3aaa"/>
+    <path d="M373 248 Q376 252 378 250 Q375 247 373 244 Z" fill="#2d3aaa"/>
 
-    <text x="421" y="241" class="bl" text-anchor="middle">Linux</text>
+    <text x="430" y="241" class="bl" text-anchor="middle">Cyber Security</text>
   </g>
 </svg>

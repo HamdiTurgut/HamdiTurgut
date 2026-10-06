@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="terminal-header.svg" alt="birusk terminal" width="100%" />
+<img src="terminal-header.svg" alt="hamdi terminal" width="100%" />
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=biyusku&style=flat-square&color=238636&labelColor=0d1117&label=profile+views)
+![](https://komarev.com/ghpvc/?username=HamdiTurgut&style=flat-square&color=238636&labelColor=0d1117&label=profile+views)
 &nbsp;
-![](https://img.shields.io/github/followers/biyusku?style=flat-square&color=238636&labelColor=0d1117&logo=github&label=followers)
+![](https://img.shields.io/github/followers/HamdiTurgut?style=flat-square&color=238636&labelColor=0d1117&logo=github&label=followers)
 
 </div>
 
@@ -14,9 +14,9 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=biyusku&theme=github-dark-blue&hide_border=true&background=0d1117&ring=238636&fire=238636&currStreakLabel=58a6ff" width="55%" />
+<img src="https://streak-stats.demolab.com?user=HamdiTurgut&theme=github-dark-blue&hide_border=true&background=0d1117&ring=238636&fire=238636&currStreakLabel=58a6ff" width="55%" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=biyusku&theme=github_dark" width="80%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HamdiTurgut&theme=github_dark" width="80%" />
 
 
 </div>
@@ -44,7 +44,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/birusk/?locale=en)
+[![LinkedIn]()
 &nbsp;&nbsp;
 [![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=flat-square&logo=instagram&logoColor=E4405F)](https://www.instagram.com/birusku/)
 

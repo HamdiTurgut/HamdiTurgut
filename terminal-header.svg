@@ -8,12 +8,14 @@
     .it { font-family: 'Courier New', monospace; font-size: 13px; fill: #e6edf3; font-style: italic; }
     .bl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #e6edf3; }
   </style>
+
   <rect width="680" height="290" rx="10" fill="#0d1117"/>
   <rect width="680" height="290" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
   <circle cx="28" cy="24" r="5.5" fill="#ff5f57"/>
   <circle cx="48" cy="24" r="5.5" fill="#febc2e"/>
   <circle cx="68" cy="24" r="5.5" fill="#28c840"/>
   <line x1="0" y1="38" x2="680" y2="38" stroke="#21262d" stroke-width="1"/>
+
   <text x="20" y="62" class="pr">hamdi@dev ~$</text>
   <clipPath id="cp1">
     <rect x="138" y="48" height="20" width="0">
@@ -25,12 +27,14 @@
     <animate attributeName="x" from="138" to="298" dur="0.8s" begin="0.2s" fill="freeze"/>
     <animate attributeName="opacity" values="1;0" dur="0.05s" begin="1.1s" fill="freeze"/>
   </rect>
+
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.15s" fill="freeze"/>
     <text x="20" y="79"><tspan class="ky">name    </tspan><tspan class="eq"> = </tspan><tspan class="st">Hamdi Turgut</tspan></text>
     <text x="20" y="95"><tspan class="ky">role    </tspan><tspan class="eq"> = </tspan><tspan class="st">Software Developer</tspan></text>
     <text x="20" y="111"><tspan class="ky">location</tspan><tspan class="eq"> = </tspan><tspan class="st">Turkey, TR</tspan></text>
   </g>
+
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.2s" fill="freeze"/>
     <text x="20" y="144" class="pr">hamdi@dev ~$</text>
@@ -48,10 +52,12 @@
       <animate attributeName="opacity" values="1;0" dur="0.05s" begin="2.0s" fill="freeze"/>
     </rect>
   </g>
+
   <text x="20" y="161" class="it" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.05s" fill="freeze"/>
     build fast. ship clean. automate everything else.
   </text>
+
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze"/>
     <text x="20" y="190" class="pr">hamdi@dev ~$</text>
@@ -59,32 +65,71 @@
       <animate attributeName="opacity" values="0;1;1;0;0" dur="1s" begin="2.15s" repeatCount="indefinite"/>
     </rect>
   </g>
+
   <line x1="20" y1="208" x2="660" y2="208" stroke="#21262d" stroke-width="1" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.2s" fill="freeze"/>
   </line>
+
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="2.35s" fill="freeze"/>
-    <rect x="258" y="222" width="82" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <rect x="258" y="222" width="32" height="30" rx="6" fill="#00599c"/>
-    <rect x="274" y="222" width="16" height="30" fill="#00599c"/>
-    <text x="274" y="241" font-family="serif" font-size="14px" font-weight="bold" fill="white" text-anchor="middle">C++</text>
-    <text x="312" y="241" class="bl" text-anchor="middle">C++</text>
-    <rect x="352" y="222" width="86" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <rect x="352" y="222" width="32" height="30" rx="6" fill="#FCC624"/>
-    <rect x="368" y="222" width="16" height="30" fill="#FCC624"/>
-    <g transform="translate(359,225)">
-      <ellipse cx="7" cy="13" rx="5" ry="6" fill="#1a1a1a"/>
-      <ellipse cx="7" cy="14" rx="3.2" ry="4.5" fill="white"/>
-      <ellipse cx="7" cy="6" rx="5.5" ry="5.5" fill="#1a1a1a"/>
-      <ellipse cx="7" cy="7" rx="3.5" ry="3.5" fill="#f5c518"/>
-      <circle cx="5.2" cy="5.5" r="1.1" fill="white"/>
-      <circle cx="8.8" cy="5.5" r="1.1" fill="white"/>
-      <circle cx="5.4" cy="5.5" r="0.5" fill="#1a1a1a"/>
-      <circle cx="9" cy="5.5" r="0.5" fill="#1a1a1a"/>
-      <ellipse cx="7" cy="8.5" rx="1.8" ry="1" fill="#e8a000"/>
-      <ellipse cx="4.5" cy="19.5" rx="2.5" ry="1" fill="#e8a000"/>
-      <ellipse cx="9.5" cy="19.5" rx="2.5" ry="1" fill="#e8a000"/>
+
+    <!-- ===== C++ BADGE ===== -->
+    <!-- outer box, sharp corners rx=2 -->
+    <rect x="255" y="220" width="90" height="34" rx="2" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <!-- left icon panel blue -->
+    <rect x="255" y="220" width="34" height="34" rx="2" fill="#00599c"/>
+    <rect x="271" y="220" width="18" height="34" fill="#00599c"/>
+    <!-- hand-drawn style C++ icon: bold C shape + two plus signs -->
+    <!-- C arc: open circle left side -->
+    <path d="M278 228 C272 228 268 231 268 237 C268 243 272 246 278 246" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- + sign 1 -->
+    <line x1="281" y1="234" x2="281" y2="240" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="278" y1="237" x2="284" y2="237" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <!-- + sign 2 -->
+    <line x1="286" y1="234" x2="286" y2="240" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <line x1="283" y1="237" x2="289" y2="237" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <!-- label -->
+    <text x="318" y="241" class="bl" text-anchor="middle">C++</text>
+
+    <!-- ===== LINUX BADGE ===== -->
+    <!-- outer box, sharp corners rx=2 -->
+    <rect x="357" y="220" width="96" height="34" rx="2" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <!-- left icon panel yellow -->
+    <rect x="357" y="220" width="34" height="34" rx="2" fill="#f5c518"/>
+    <rect x="373" y="220" width="18" height="34" fill="#f5c518"/>
+    <!-- Tux: hand-drawn / sade style, 20x26, centered in 34px panel -->
+    <!-- translate so tux is at cx=374, top=222 -->
+    <g transform="translate(357,220)">
+      <!-- body oval black -->
+      <ellipse cx="17" cy="22" rx="8" ry="9" fill="#1a1a1a"/>
+      <!-- belly white -->
+      <ellipse cx="17" cy="23" rx="5.5" ry="7" fill="#f0f0f0"/>
+      <!-- head black -->
+      <ellipse cx="17" cy="10" rx="7.5" ry="7.5" fill="#1a1a1a"/>
+      <!-- face yellow patch -->
+      <ellipse cx="17" cy="11" rx="5" ry="5" fill="#f5c518"/>
+      <!-- left eye white -->
+      <circle cx="14.5" cy="8.5" r="1.8" fill="white"/>
+      <!-- right eye white -->
+      <circle cx="19.5" cy="8.5" r="1.8" fill="white"/>
+      <!-- left pupil -->
+      <circle cx="14.8" cy="8.5" r="0.9" fill="#1a1a1a"/>
+      <!-- right pupil -->
+      <circle cx="19.8" cy="8.5" r="0.9" fill="#1a1a1a"/>
+      <!-- beak top -->
+      <path d="M14.5 12 Q17 15 19.5 12" fill="#e8a000" stroke="none"/>
+      <!-- beak bottom -->
+      <path d="M14.5 12 Q17 14 19.5 12 L17 13.5 Z" fill="#cc8800" stroke="none"/>
+      <!-- left wing -->
+      <path d="M9 18 Q6 22 8 27 Q10 25 11 22 Z" fill="#1a1a1a"/>
+      <!-- right wing -->
+      <path d="M25 18 Q28 22 26 27 Q24 25 23 22 Z" fill="#1a1a1a"/>
+      <!-- left foot -->
+      <path d="M13 30 Q10 32 9 31 Q11 29 12 28 Z" fill="#e8a000"/>
+      <!-- right foot -->
+      <path d="M21 30 Q24 32 25 31 Q23 29 22 28 Z" fill="#e8a000"/>
     </g>
-    <text x="406" y="241" class="bl" text-anchor="middle">Linux</text>
+    <!-- label -->
+    <text x="420" y="241" class="bl" text-anchor="middle">Linux</text>
   </g>
 </svg>

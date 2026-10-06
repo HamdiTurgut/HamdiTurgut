@@ -73,63 +73,38 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="2.35s" fill="freeze"/>
 
-    <!-- ===== C++ BADGE ===== -->
-    <!-- outer box, sharp corners rx=2 -->
-    <rect x="255" y="220" width="90" height="34" rx="2" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <!-- left icon panel blue -->
-    <rect x="255" y="220" width="34" height="34" rx="2" fill="#00599c"/>
-    <rect x="271" y="220" width="18" height="34" fill="#00599c"/>
-    <!-- hand-drawn style C++ icon: bold C shape + two plus signs -->
-    <!-- C arc: open circle left side -->
-    <path d="M278 228 C272 228 268 231 268 237 C268 243 272 246 278 246" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <!-- + sign 1 -->
-    <line x1="281" y1="234" x2="281" y2="240" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <line x1="278" y1="237" x2="284" y2="237" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <!-- + sign 2 -->
-    <line x1="286" y1="234" x2="286" y2="240" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <line x1="283" y1="237" x2="289" y2="237" stroke="white" stroke-width="2" stroke-linecap="round"/>
-    <!-- label -->
-    <text x="318" y="241" class="bl" text-anchor="middle">C++</text>
+    <!-- C++ badge: icon panel left, label right -->
+    <rect x="253" y="219" width="88" height="34" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="253" y="219" width="36" height="34" rx="3" fill="#00599c"/>
+    <rect x="271" y="219" width="18" height="34" fill="#00599c"/>
+    <!-- simple C++ text icon, white, monospace bold -->
+    <text x="271" y="241" font-family="Georgia, serif" font-size="13px" font-weight="bold" fill="white" text-anchor="middle">C++</text>
+    <text x="319" y="241" class="bl" text-anchor="middle">C++</text>
 
-    <!-- ===== LINUX BADGE ===== -->
-    <!-- outer box, sharp corners rx=2 -->
-    <rect x="357" y="220" width="96" height="34" rx="2" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <!-- left icon panel yellow -->
-    <rect x="357" y="220" width="34" height="34" rx="2" fill="#f5c518"/>
-    <rect x="373" y="220" width="18" height="34" fill="#f5c518"/>
-    <!-- Tux: hand-drawn / sade style, 20x26, centered in 34px panel -->
-    <!-- translate so tux is at cx=374, top=222 -->
-    <g transform="translate(357,220)">
-      <!-- body oval black -->
-      <ellipse cx="17" cy="22" rx="8" ry="9" fill="#1a1a1a"/>
-      <!-- belly white -->
-      <ellipse cx="17" cy="23" rx="5.5" ry="7" fill="#f0f0f0"/>
-      <!-- head black -->
-      <ellipse cx="17" cy="10" rx="7.5" ry="7.5" fill="#1a1a1a"/>
-      <!-- face yellow patch -->
-      <ellipse cx="17" cy="11" rx="5" ry="5" fill="#f5c518"/>
-      <!-- left eye white -->
-      <circle cx="14.5" cy="8.5" r="1.8" fill="white"/>
-      <!-- right eye white -->
-      <circle cx="19.5" cy="8.5" r="1.8" fill="white"/>
-      <!-- left pupil -->
-      <circle cx="14.8" cy="8.5" r="0.9" fill="#1a1a1a"/>
-      <!-- right pupil -->
-      <circle cx="19.8" cy="8.5" r="0.9" fill="#1a1a1a"/>
-      <!-- beak top -->
-      <path d="M14.5 12 Q17 15 19.5 12" fill="#e8a000" stroke="none"/>
-      <!-- beak bottom -->
-      <path d="M14.5 12 Q17 14 19.5 12 L17 13.5 Z" fill="#cc8800" stroke="none"/>
-      <!-- left wing -->
-      <path d="M9 18 Q6 22 8 27 Q10 25 11 22 Z" fill="#1a1a1a"/>
-      <!-- right wing -->
-      <path d="M25 18 Q28 22 26 27 Q24 25 23 22 Z" fill="#1a1a1a"/>
-      <!-- left foot -->
-      <path d="M13 30 Q10 32 9 31 Q11 29 12 28 Z" fill="#e8a000"/>
-      <!-- right foot -->
-      <path d="M21 30 Q24 32 25 31 Q23 29 22 28 Z" fill="#e8a000"/>
-    </g>
-    <!-- label -->
-    <text x="420" y="241" class="bl" text-anchor="middle">Linux</text>
+    <!-- Linux badge: icon panel left, label right -->
+    <rect x="353" y="219" width="92" height="34" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <rect x="353" y="219" width="36" height="34" rx="3" fill="#f5c518"/>
+    <rect x="371" y="219" width="18" height="34" fill="#f5c518"/>
+
+    <!-- Tux: minimal, iconic, centered at cx=371 cy=236 in 36x34 box -->
+    <!-- body: black rounded rect -->
+    <rect x="363" y="228" width="16" height="18" rx="8" fill="#222"/>
+    <!-- belly: white oval -->
+    <ellipse cx="371" cy="238" rx="5" ry="6" fill="#eee"/>
+    <!-- head: black circle -->
+    <circle cx="371" cy="224" r="7" fill="#222"/>
+    <!-- eyes: white dots -->
+    <circle cx="368" cy="222" r="1.5" fill="white"/>
+    <circle cx="374" cy="222" r="1.5" fill="white"/>
+    <!-- pupils -->
+    <circle cx="368.5" cy="222" r="0.7" fill="#222"/>
+    <circle cx="374.5" cy="222" r="0.7" fill="#222"/>
+    <!-- beak: small orange triangle -->
+    <polygon points="369,225 373,225 371,228" fill="#e8a000"/>
+    <!-- feet: two small orange rects -->
+    <rect x="365" y="245" width="5" height="3" rx="1" fill="#e8a000"/>
+    <rect x="372" y="245" width="5" height="3" rx="1" fill="#e8a000"/>
+
+    <text x="421" y="241" class="bl" text-anchor="middle">Linux</text>
   </g>
 </svg>

@@ -15,7 +15,7 @@
   <line x1="0" y1="38" x2="680" y2="38" stroke="#21262d" stroke-width="1"/>
 
   <!-- CMD 1: prompt + space + command, no gap -->
-  <text x="20" y="62" class="pr">birusk@rusk ~$</text>
+  <text x="20" y="62" class="pr">hamdi@dev ~$</text>
   <clipPath id="cp1">
     <rect x="138" y="48" height="20" width="0">
       <animate attributeName="width" from="0" to="160" dur="0.8s" begin="0.2s" fill="freeze" calcMode="linear"/>
@@ -30,16 +30,16 @@
   <!-- OUTPUT 1 -->
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.15s" fill="freeze"/>
-    <text x="20" y="79"><tspan class="ky">name    </tspan><tspan class="eq"> = </tspan><tspan class="st">Birusk Çiğdem</tspan></text>
-    <text x="20" y="95"><tspan class="ky">role    </tspan><tspan class="eq"> = </tspan><tspan class="st">Founder &amp; CEO @ Rusk Agency</tspan></text>
-    <text x="20" y="111"><tspan class="ky">location</tspan><tspan class="eq"> = </tspan><tspan class="st">Diyarbakır, TR</tspan></text>
-    <text x="20" y="127"><tspan class="ky">age     </tspan><tspan class="eq"> = </tspan><tspan class="st">20</tspan></text>
+    <text x="20" y="79"><tspan class="ky">name    </tspan><tspan class="eq"> = </tspan><tspan class="st">Hamdi Turgut</tspan></text>
+    <text x="20" y="95"><tspan class="ky">role    </tspan><tspan class="eq"> = </tspan><tspan class="st">Software Developer</tspan></text>
+    <text x="20" y="111"><tspan class="ky">location</tspan><tspan class="eq"> = </tspan><tspan class="st">Turkey, TR</tspan></text>
+    <text x="20" y="127"><tspan class="ky">github  </tspan><tspan class="eq"> = </tspan><tspan class="st">github.com/HamdiTurgut</tspan></text>
   </g>
 
   <!-- CMD 2 -->
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.2s" fill="freeze"/>
-    <text x="20" y="144" class="pr">birusk@rusk ~$</text>
+    <text x="20" y="144" class="pr">hamdi@dev ~$</text>
   </g>
   <clipPath id="cp2">
     <rect x="138" y="130" height="20" width="0">
@@ -64,7 +64,7 @@
   <!-- IDLE -->
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze"/>
-    <text x="20" y="190" class="pr">birusk@rusk ~$</text>
+    <text x="20" y="190" class="pr">hamdi@dev ~$</text>
     <rect x="138" y="178" width="8" height="12" fill="#3fb950">
       <animate attributeName="opacity" values="0;1;1;0;0" dur="1s" begin="2.15s" repeatCount="indefinite"/>
     </rect>

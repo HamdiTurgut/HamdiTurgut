@@ -1,75 +1,74 @@
-<svg width="680" height="210" viewBox="0 0 680 210" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      .pr { font-family: Courier New, monospace; font-size: 13px; fill: #3fb950; }
-      .cm { font-family: Courier New, monospace; font-size: 13px; fill: #e6edf3; }
-      .ky { font-family: Courier New, monospace; font-size: 13px; fill: #79c0ff; }
-      .eq { font-family: Courier New, monospace; font-size: 13px; fill: #484f58; }
-      .st { font-family: Courier New, monospace; font-size: 13px; fill: #a8daab; }
-      .it { font-family: Courier New, monospace; font-size: 13px; fill: #e6edf3; font-style: italic; }
-    </style>
-    <rect width="680" height="210" rx="10" fill="#0d1117"/>
-    <rect width="680" height="210" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
-    <circle cx="28" cy="24" r="5.5" fill="#ff5f57"/>
-    <circle cx="48" cy="24" r="5.5" fill="#febc2e"/>
-    <circle cx="68" cy="24" r="5.5" fill="#28c840"/>
-    <line x1="0" y1="38" x2="680" y2="38" stroke="#21262d" stroke-width="1"/>
+ <svg width="680" height="210" viewBox="0 0 680 210" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        .pr { font-family: Courier New, monospace; font-size: 13px; fill: #3fb950; }
+        .cm { font-family: Courier New, monospace; font-size: 13px; fill: #e6edf3; }
+        .ky { font-family: Courier New, monospace; font-size: 13px; fill: #79c0ff; }
+        .eq { font-family: Courier New, monospace; font-size: 13px; fill: #484f58; }
+        .st { font-family: Courier New, monospace; font-size: 13px; fill: #a8daab; }
+        .it { font-family: Courier New, monospace; font-size: 13px; fill: #e6edf3; font-style: italic; }
+      </style>
+      <rect width="680" height="210" rx="10" fill="#0d1117"/>
+      <rect width="680" height="210" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
+      <circle cx="28" cy="24" r="5.5" fill="#ff5f57"/>
+      <circle cx="48" cy="24" r="5.5" fill="#febc2e"/>
+      <circle cx="68" cy="24" r="5.5" fill="#28c840"/>
+      <line x1="0" y1="38" x2="680" y2="38" stroke="#21262d" stroke-width="1"/>
 
-    <!-- cat identity.conf -->
-    <text x="20" y="62" class="pr">hamdi@dev ~$</text>
-    <clipPath id="cp1">
-      <rect x="138" y="48" height="20" width="0">
-        <animate attributeName="width" from="0" to="160" dur="0.8s" begin="0.2s" fill="freeze"/>
+      <!-- cat identity.conf -->
+      <text x="20" y="62" class="pr">hamdi@dev ~$</text>
+      <clipPath id="cp1">
+        <rect x="138" y="48" height="20" width="0">
+          <animate attributeName="width" from="0" to="160" dur="0.8s" begin="0.2s" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <text x="138" y="62" class="cm" clip-path="url(#cp1)"> cat identity.conf</text>
+      <rect x="138" y="50" width="8" height="12" fill="#3fb950">
+        <animate attributeName="x" from="138" to="298" dur="0.8s" begin="0.2s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0" dur="0.05s" begin="1.1s" fill="freeze"/>
       </rect>
-    </clipPath>
-    <text x="138" y="62" class="cm" clip-path="url(#cp1)"> cat identity.conf</text>
-    <rect x="138" y="50" width="8" height="12" fill="#3fb950">
-      <animate attributeName="x" from="138" to="298" dur="0.8s" begin="0.2s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0" dur="0.05s" begin="1.1s" fill="freeze"/>
-    </rect>
 
-    <!-- identity output -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.15s" fill="freeze"/>
-      <text x="20" y="79"><tspan class="ky">name    </tspan><tspan class="eq"> = </tspan><tspan class="st">Hamdi
+      <!-- identity output -->
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.15s" fill="freeze"/>
+        <text x="20" y="79"><tspan class="ky">name    </tspan><tspan class="eq"> = </tspan><tspan class="st">Hamdi
   Turgut</tspan></text>
-      <text x="20" y="95"><tspan class="ky">role    </tspan><tspan class="eq"> = </tspan><tspan class="st">Software
+        <text x="20" y="95"><tspan class="ky">role    </tspan><tspan class="eq"> = </tspan><tspan class="st">Software
   Developer</tspan></text>
-      <text x="20" y="111"><tspan class="ky">location</tspan><tspan class="eq"> = </tspan><tspan class="st">Turkey,
+        <text x="20" y="111"><tspan class="ky">location</tspan><tspan class="eq"> = </tspan><tspan class="st">Turkey,
   TR</tspan></text>
-    </g>
+      </g>
 
-    <!-- echo $MOTTO -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.2s" fill="freeze"/>
-      <text x="20" y="134" class="pr">hamdi@dev ~$</text>
-    </g>
-    <clipPath id="cp2">
-      <rect x="138" y="120" height="20" width="0">
-        <animate attributeName="width" from="0" to="110" dur="0.6s" begin="1.3s" fill="freeze"/>
-      </rect>
-    </clipPath>
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.25s" fill="freeze"/>
-      <text x="138" y="134" class="cm" clip-path="url(#cp2)"> echo $MOTTO</text>
-      <rect x="138" y="122" width="8" height="12" fill="#3fb950">
-        <animate attributeName="x" from="138" to="248" dur="0.6s" begin="1.3s" fill="freeze"/>
-        <animate attributeName="opacity" values="1;0" dur="0.05s" begin="2.0s" fill="freeze"/>
-      </rect>
-    </g>
+      <!-- more readme.txt -->
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.2s" fill="freeze"/>
+        <text x="20" y="134" class="pr">hamdi@dev ~$</text>
+      </g>
+      <clipPath id="cp2">
+        <rect x="138" y="120" height="20" width="0">
+          <animate attributeName="width" from="0" to="130" dur="0.6s" begin="1.3s" fill="freeze"/>
+        </rect>
+      </clipPath>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.25s" fill="freeze"/>
+        <text x="138" y="134" class="cm" clip-path="url(#cp2)"> more readme.txt</text>
+        <rect x="138" y="122" width="8" height="12" fill="#3fb950">
+          <animate attributeName="x" from="138" to="268" dur="0.6s" begin="1.3s" fill="freeze"/>
+          <animate attributeName="opacity" values="1;0" dur="0.05s" begin="2.0s" fill="freeze"/>
+        </rect>
+      </g>
 
-    <!-- motto output -->
-    <text x="20" y="151" class="it" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.05s" fill="freeze"/>
-      build fast. ship clean. automate everything else.
-    </text>
+      <!-- motto output -->
+      <text x="20" y="151" class="it" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.05s" fill="freeze"/>
+        build fast. LEAVE ME HERE.
+      </text>
 
-    <!-- final prompt + cursor -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze"/>
-      <text x="20" y="180" class="pr">hamdi@dev ~$</text>
-      <rect x="138" y="168" width="8" height="12" fill="#3fb950">
-        <animate attributeName="opacity" values="0;1;1;0;0" dur="1s" begin="2.15s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-
+      <!-- final prompt + cursor -->
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze"/>
+        <text x="20" y="180" class="pr">hamdi@dev ~$</text>
+        <rect x="138" y="168" width="8" height="12" fill="#3fb950">
+          <animate attributeName="opacity" values="0;1;1;0;0" dur="1s" begin="2.15s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </svg>
